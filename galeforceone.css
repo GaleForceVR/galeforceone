@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: black-ops-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;	
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+.nav li {
+	display: inline;
+	padding: 20px 30px 14px 30px;
+	margin-top: 15px;
+	border-right: 1px solid #333;
+	visibility: hidden;
+}
+
+.nav li a {
+		text-decoration: none;
+		font-size: 1.2em;
+		color: grey;
+		height:50px;
+		visibility: hidden;	
+}
+
+.pre li {
+	display: inline;
+	padding: 20px 30px 14px 30px;
+	margin-top: 15px;
+	border-right: 1px solid #333;
+}
+
+.pre li a {
+		text-decoration: none;
+		font-size: 1.2em;
+		color: grey;
+		height:50px;	
+}
+
+.login {
+	margin-top: 60px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-right: 30px;
+	float: left;
+	clear: both;
+	background-color: black;
+	text-align: center;
+	font-family: black-ops-one;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.signin {
+	display: inline-block;
+	color: #34dcd2;
+	margin: 0;
+	padding: 0;
+}
+
+.login .signin p{
+	margin: 25px 0 0 4px;
+	padding: 0;
+	text-align: left;
+	font-size: 0.75em;
+	font-family: black-ops-one;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.login p {
+	margin: 0;
+	padding: 0;
+	color: #34dcd2;
+	font-size: 1.3em;	
+}
+
+.login input {
+	background-color: #34dcd2;
+	margin: 5px 4px 10px 4px;
+	padding: 0;
+	border: 1px solid black;
+	color: black;
+	
+}
+
+.login button {
+	background-color: yellow;
+	border-radius: 5px;
+	border: 1px solid gold;
+	cursor: pointer;
+}
+.vine-embed {
+	clear: both;
+	margin: 60px 30px 20px 30px;
+}
